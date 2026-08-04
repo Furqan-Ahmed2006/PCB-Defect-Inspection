@@ -10,7 +10,6 @@ A practical deep-learning project for **automatic PCB defect detection and inspe
 - [My Solution](#-my-solution)
 - [How the Project Works](#-how-the-project-works)
 - [Tech Stack](#-tech-stack)
-- [Repository Structure](#-repository-structure)
 - [How to Run](#-how-to-run)
 - [Streamlit Live Demo](#-streamlit-live-demo)
 - [Future Improvements](#-future-improvements)
@@ -79,26 +78,12 @@ At a high level, the workflow is:
 ## 🧰 Tech Stack
 - **Language:** Python
 - **Development Format:** Jupyter Notebook
-- **Core Domain:** Computer Vision / Deep Learning
-- **Potential Libraries Used:** NumPy, Pandas, Matplotlib, OpenCV, TensorFlow/PyTorch, Scikit-learn *(depending on notebook implementation)*
+- **Core Domain:** Computer Vision / Deep Learning(Covolutional Neural Network)
+- **Potential Libraries Used:** NumPy, Pandas, Matplotlib, OpenCV, PyTorch,EfficientNet-B2(Transfer Learning)
 
 ---
 
-## 🗂 Repository Structure
-> Update filenames below based on your final project files.
 
-```text
-PCB-Defect-Inspection/
-│
-├── notebooks/                # Jupyter notebooks for training/testing
-├── data/                     # Dataset (if included or linked)
-├── models/                   # Saved model files
-├── outputs/                  # Predictions, plots, results
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
-```
-
----
 
 ## ▶️ How to Run
 ### 1) Clone the repository
@@ -128,38 +113,15 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-- Or run Python scripts directly (if provided).
+- Or run Python scripts directly 
 
 ---
 
 ## 🌐 Streamlit Live Demo
-A live web demo can be added here:
 
-**🔗 Demo Link:** `https://your-streamlit-app-link-here.streamlit.app`
 
-> Replace this placeholder with your deployed Streamlit app URL.
+**🔗 Demo Link:** `https://pcb-defect-inspection-tbzwkxnxkcwp7usawqhpkz.streamlit.app/`
 
----
-
-## 🔭 Future Improvements
-- Add real-time camera/image upload inspection.
-- Improve model generalization with more diverse PCB datasets.
-- Add defect localization (bounding boxes/segmentation).
-- Deploy full production-ready web interface.
 
 ---
 
-## 🤝 Contributing
-Contributions, suggestions, and improvements are welcome.
-If you’d like to contribute:
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Open a pull request
-
----
-
-## 📄 License
-Choose and add a license for your project (e.g., MIT License).
-
-If not yet added, create a `LICENSE` file to define usage rights.
