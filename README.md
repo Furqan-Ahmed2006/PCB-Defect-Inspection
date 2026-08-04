@@ -12,10 +12,6 @@ A practical deep-learning project for **automatic PCB defect detection and inspe
 - [Tech Stack](#-tech-stack)
 - [How to Run](#-how-to-run)
 - [Streamlit Live Demo](#-streamlit-live-demo)
-- [Future Improvements](#-future-improvements)
-- [Contributing](#-contributing)
-- [License](#-license)
-
 ---
 
 ## 🚀 Project Overview
@@ -120,7 +116,7 @@ jupyter notebook
 ## 🌐 Streamlit Live Demo
 
 
-**🔗 Demo Link:** `https://pcb-defect-inspection-tbzwkxnxkcwp7usawqhpkz.streamlit.app/`
+**🔗 Demo Link:** https://pcb-defect-inspection-tbzwkxnxkcwp7usawqhpkz.streamlit.app/
 
 
 ---
